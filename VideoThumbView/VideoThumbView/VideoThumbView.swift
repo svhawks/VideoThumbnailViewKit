@@ -80,9 +80,11 @@ public class VideoThumbView: UIView {
     generator.maximumSize = CGSize(width: thumbWidth, height: Double(self.frame.size.height))
     generator.appliesPreferredTrackTransform = false
     let thumbTime = CMTimeMakeWithSeconds(second, 1)
-    let imgRef = generator.copyCGImageAtTime(thumbTime, actualTime: nil, error: nil)
-    if let thumb = UIImage(CGImage:imgRef) {
-      return thumb
+    do {
+    let ref = try generator.copyCGImageAtTime(thumbTime, actualTime: nil)
+      return UIImage(CGImage: ref)
+    }catch {
+      print(error)
     }
     return UIImage()
   }
