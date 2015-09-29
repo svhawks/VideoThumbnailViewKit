@@ -12,6 +12,7 @@
 		C35BC0471BBB203C00B486A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C35BC0461BBB203C00B486A9 /* Assets.xcassets */; };
 		C3AA0DFB1BBB230D009CC754 /* VideoThumbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3AA0DFA1BBB230D009CC754 /* VideoThumbView.swift */; };
 		C3AA0E001BBB2411009CC754 /* Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C3AA0DFF1BBB2411009CC754 /* Video.mp4 */; };
+		C3D4ECEF1BBB5020008CBCAE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3D4ECEE1BBB5020008CBCAE /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C35BC04B1BBB203C00B486A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C3AA0DFA1BBB230D009CC754 /* VideoThumbView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoThumbView.swift; path = VideoThumbView/VideoThumbView.swift; sourceTree = "<group>"; };
 		C3AA0DFF1BBB2411009CC754 /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Video.mp4; path = Resources/Video.mp4; sourceTree = "<group>"; };
+		C3D4ECEE1BBB5020008CBCAE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		C35BC0331BBB203C00B486A9 = {
 			isa = PBXGroup;
 			children = (
+				C3D4ECEE1BBB5020008CBCAE /* Default-568h@2x.png */,
 				C35BC03E1BBB203C00B486A9 /* VideoThumbView */,
 				C35BC03D1BBB203C00B486A9 /* Products */,
 			);
@@ -90,6 +93,7 @@
 				C35BC0381BBB203C00B486A9 /* Sources */,
 				C35BC0391BBB203C00B486A9 /* Frameworks */,
 				C35BC03A1BBB203C00B486A9 /* Resources */,
+				C3D4ECED1BBB4FBB008CBCAE /* Validate Code Style */,
 			);
 			buildRules = (
 			);
@@ -139,10 +143,28 @@
 			files = (
 				C35BC0471BBB203C00B486A9 /* Assets.xcassets in Resources */,
 				C3AA0E001BBB2411009CC754 /* Video.mp4 in Resources */,
+				C3D4ECEF1BBB5020008CBCAE /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C3D4ECED1BBB4FBB008CBCAE /* Validate Code Style */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Validate Code Style";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ \"$CIRCLECI\" != \"true\" ]\nthen\n/usr/local/bin/swiftlint lint --path VideoThumbView\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C35BC0381BBB203C00B486A9 /* Sources */ = {
