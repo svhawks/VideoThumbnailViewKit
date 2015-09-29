@@ -1,6 +1,6 @@
 
 # VideoThumbView - Video Thumb ScrollView
-![alt tag](http://i62.tinypic.com/m90h86.png)
+![alt tag](http://i60.tinypic.com/ma8g09.png)
 
 ##Introduction
 
