@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/toygard/VideoThumbView.svg?branch=master)](https://travis-ci.org/toygard/VideoThumbView)
+[![Build Status](https://travis-ci.org/toygar/VideoThumbView.svg?branch=master)](https://travis-ci.org/toygar/VideoThumbView)
 
 # VideoThumbView - Video Thumb ScrollView
 ![alt tag](http://i60.tinypic.com/ma8g09.png)
