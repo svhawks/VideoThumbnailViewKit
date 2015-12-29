@@ -1,9 +1,12 @@
 
 # VideoThumbnailViewKit - Video Thumbnail View
 
-[![Build Status](https://travis-ci.org/movielala/VideoThumbnailViewKit.svg?branch=master)](https://travis-ci.org/movielala/VideoThumbnailViewKit)
-
-[![Join the chat at https://gitter.im/movielala/VideoThumbnailViewKit](https://badges.gitter.im/movielala/VideoThumbnailViewKit.svg)](https://gitter.im/movielala/VideoThumbnailViewKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://img.shields.io/travis/movielala/VideoThumbnailViewKit/master.svg)](https://travis-ci.org/movielala/VideoThumbnailViewKit)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+[![Dependencies](https://img.shields.io/badge/dependencies-none-brightgreen.svg)](https://github.com/mobileplayer/mobileplayer-ios)
+[![Ready](https://badge.waffle.io/movielala/VideoThumbnailViewKit.png?label=Ready&title=Ready)](https://waffle.io/movielala/VideoThumbnailViewKit)
+[![StackOverflow](https://img.shields.io/badge/StackOverflow-Ask%20a%20question!-blue.svg)](http://stackoverflow.com/questions/ask?tags=VideoThumbnailViewKit+ios+swift)
+[![Join the chat at https://gitter.im/mobileplayer/mobileplayer-ios](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/movielala/VideoThumbnailViewKit)
 
 
 ![alt tag](http://i60.tinypic.com/ma8g09.png)
