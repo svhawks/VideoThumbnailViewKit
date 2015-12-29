@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.name             = "VideoThumbView"
   s.version          = "0.0.1"
   s.summary          = "Video Thumb ScrollView"
-  s.homepage         = "https://github.com/sahin/VideoThumbView"
+  s.homepage         = "https://github.com/movielala/VideoThumbView"
   s.license          = 'MIT'
-  s.author           = { "Sahin Boydas" => "noemail@gmail.com" }
-  s.social_media_url = 'https://twitter.com/sahinboydas'
-  s.source           = { :git => "https://github.com/sahin/VideoThumbView.git", :tag => s.version.to_s }
+  s.author           = { "Movielala" => "git@movielala.com" }
+  s.social_media_url = 'https://twitter.com/movielala'
+  s.source           = { :git => "https://github.com/movielala/VideoThumbView.git", :tag => s.version.to_s }
   s.platform         = :ios, '8.0'
   s.requires_arc     = true
   s.source_files     = 'VideoThumbView/*.swift'
