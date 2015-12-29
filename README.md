@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/movielala/VideoThumbnailViewKit)](https://travis-ci.org/movielala/VideoThumbnailViewKit)
+[![Build Status](https://travis-ci.org/movielala/VideoThumbnailViewKit.svg?branch=master)](https://travis-ci.org/movielala/VideoThumbnailViewKit)
 
 # VideoThumbView - Video Thumb ScrollView
 ![alt tag](http://i60.tinypic.com/ma8g09.png)
