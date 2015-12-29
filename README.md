@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/movielala/VideoThumbnailViewKit.svg?branch=master)](https://travis-ci.org/movielala/VideoThumbnailViewKit)
 
 # VideoThumbView - Video Thumb ScrollView
+
+[![Join the chat at https://gitter.im/movielala/VideoThumbnailViewKit](https://badges.gitter.im/movielala/VideoThumbnailViewKit.svg)](https://gitter.im/movielala/VideoThumbnailViewKit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ![alt tag](http://i60.tinypic.com/ma8g09.png)
 
 ##Introduction
