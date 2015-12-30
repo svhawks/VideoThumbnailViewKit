@@ -1,6 +1,6 @@
 //
-//  VideoThumbView.swift
-//  VideoThumbView
+//  VideoThumbnailView.swift
+//  VideoThumbnailView
 //
 //  Created by Toygar Dundaralp on 9/29/15.
 //  Copyright (c) 2015 Toygar Dundaralp. All rights reserved.
@@ -9,7 +9,7 @@
 import UIKit
 import AVFoundation
 
-public class VideoThumbView: UIView {
+public class VideoThumbnailView: UIView {
 
   private var videoScroll = UIScrollView()
   private var thumImageView = UIImageView()

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  VideoThumbView
+//  VideoThumbnailView
 //
 //  Created by Toygar Dundaralp on 9/29/15.
 //  Copyright © 2015 Toygar Dundaralp. All rights reserved.

@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  VideoThumbView
+//  VideoThumbnailView
 //
 //  Created by Toygar Dundaralp on 9/29/15.
 //  Copyright © 2015 Toygar Dundaralp. All rights reserved.
@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     if let videoURL = NSURL.fileURLWithPath(
       NSBundle.mainBundle().pathForResource("Video", ofType: "mp4")!) as NSURL? {
         let rect = CGRect(x: 0.0, y: 70.0, width: self.view.frame.size.width, height: 100.0)
-        let trimView = VideoThumbView(
+        let trimView = VideoThumbnailView(
           frame: rect,
           videoURL: videoURL,
           thumbImageWidth: 100.0)

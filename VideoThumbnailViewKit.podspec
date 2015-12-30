@@ -8,17 +8,17 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "VideoThumbViewKit"
+  s.name             = "VideoThumbnailViewKit"
   s.version          = "0.0.2"
-  s.summary          = "Video Thumb ScrollView"
-  s.homepage         = "https://github.com/movielala/VideoThumbViewKit"
+  s.summary          = "Video Thumbnail ScrollView"
+  s.homepage         = "https://github.com/movielala/VideoThumbnailViewKit"
   s.license          = 'MIT'
   s.author           = { "Movielala" => "git@movielala.com" }
   s.social_media_url = 'https://twitter.com/movielala'
-  s.source           = { :git => "https://github.com/movielala/VideoThumbViewKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/movielala/VideoThumbnailViewKit.git", :tag => s.version.to_s }
   s.platform         = :ios, '8.0'
   s.requires_arc     = true
-  s.source_files     = 'VideoThumbView/*.swift'
+  s.source_files     = 'VideoThumbnailView/*.swift'
   s.framework        = 'UIKit'
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
