@@ -25,7 +25,7 @@ use_frameworks!
 ```
 and
 ```
-pod "VideoThumbView"
+pod "VideoThumbViewKit"
 ```
 
 Then, run the following command:
