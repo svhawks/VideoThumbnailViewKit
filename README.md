@@ -7,7 +7,7 @@
 [![Ready](https://badge.waffle.io/movielala/VideoThumbnailViewKit.png?label=Ready&title=Ready)](https://waffle.io/movielala/VideoThumbnailViewKit)
 [![StackOverflow](https://img.shields.io/badge/StackOverflow-Ask%20a%20question!-blue.svg)](http://stackoverflow.com/questions/ask?tags=VideoThumbnailViewKit+ios+swift)
 [![Join the chat at https://gitter.im/mobileplayer/mobileplayer-ios](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/movielala/VideoThumbnailViewKit)
-[![Cocoapods](https://img.shields.io/cocoapods/v/VideoThumbnailViewKit.svg)](https://img.shields.io/cocoapods/v/VideoThumbnailViewKit.svg)
+[![CocoaPods](https://img.shields.io/cocoapods/v/VideoThumbnailViewKit.svg)](https://img.shields.io/cocoapods/v/VideoThumbnailViewKit.svg)
 
 
 ![alt tag](http://i60.tinypic.com/ma8g09.png)
